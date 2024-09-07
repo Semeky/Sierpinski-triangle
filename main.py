@@ -20,7 +20,6 @@ while True:
             exit()
     a = randint(0, 2)
     x, y = 0.5*(x + tringle[a][0]), 0.5*(y + tringle[a][1])
-
     pg.draw.line(screen, (255, 255, 255), (x, y), (x, y), 1)
     
     pg.display.update()
